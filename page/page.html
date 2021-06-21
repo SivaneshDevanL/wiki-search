@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.css">
+    </head>
+    <title>sale</title>
+    <body>
+        <header>
+        <div class="name">
+            <div class="detail"> 
+            <h3 class="class">senorita</h3>
+            <h4 class="class1">come get go</h5></div> 
+            <div class="page">
+                <button onclick="signInClickHandler()" class="login">sign in</button>
+                <button onclick="signUpClickHandler()" class="login">sign up</button></div>
+            </div>
+        </header>
+        <div class="explore">
+           <a href="https://ignite.co/"><button class="finish" >explore</button></a>
+          <button onclick="terminate()"  class="finish">terminate</button>
+        </div>
+        <div id="signup">
+            <div class="header"><h3 class="welcome">Get Started!</h3>
+                </div>
+                <form>
+            <div class="content">
+                <label class="label">name</label>
+                 <input class="input" type="text" placeholder="siva">   
+            </div>
+            <div class="content">
+                <label class="label">user id</label>
+                 <input class="input" type="text" placeholder="007">   
+            </div>
+            <div class="content">
+                <label class="label">password</label>
+                 <input class="input" type="password" placeholder="@bcd01" >   
+            </div>
+            <div class="content">
+                <label class="label">confirm password</label>
+                 <input class="input" type="password" placeholder="@bcd01" >   
+            </div>
+        </form> 
+            <button class="button">sign up</button> 
+            <span onclick =" closeClickHandler()"  id="icon"><i class="fas fa-times"></i></span>
+        </div>
+        <div id="signin">
+            <div class="header1">
+                <h3 class="welcome">welcome!</h3>
+            </div>
+            <form>
+                <div class="content">
+                <label class="label">user id</label>
+                <input class="input"  type="text">    
+                </div>
+                <div class="content" >
+                <label class="label">password</label>
+                <input  class="input"  type="password">    
+                </div>
+            </form>
+            <button class="button">sign in</button> 
+            <div class="end"><strong>not a member?</strong> <span onclick="signupClick()" class="signup1">signup</span></div>
+            <span  onclick ="closeClick()" id="icon"><i class="fas fa-times"></i></span>
+        </div>
+        <script>
+            const signUpClickHandler = () => {
+              const modal = document.getElementById("signup");
+              modal.style.display = "flex";
+            };
+            const closeClickHandler = () =>{
+              const modal = document.getElementById("signup");
+              modal.style.display = "";
+            };
+            const signInClickHandler = () => {
+              const modal = document.getElementById("signin");
+              modal.style.display = "flex";
+            }; 
+            const closeClick = () =>{
+              const modal = document.getElementById("signin");
+              modal.style.display = "";
+            };
+            // const signupClick =() =>{ 
+            //     const modal=document.getElementById("signup");
+            //     modal.style.display = "flex";
+            // };
+            // const terminate=()=>{
+                
+            //     modal.style.display="";
+            // }
+          </script>
+    </body>
+</html>

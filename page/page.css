@@ -1,0 +1,114 @@
+body {
+    background-image: url("img.webp");  
+}
+.class{
+    font-size: 30px;
+    font-family: cursive;
+    font-style: italic;
+    margin-top: 0px;
+    
+}
+.class1{
+    font-family:cursive;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+.explore{
+    padding-top: 25%;
+    padding-left: 6%;
+    display: flex;
+}
+.login{
+    background-color: brown;
+    color: cornsilk;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.finish{
+    background-color: cyan;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    cursor:pointer;
+}
+#signup{
+    position:fixed;
+    background-color: blanchedalmond;
+    display:none;
+    flex-direction:column;
+    top: 23%;
+    left: 36%;
+    width:30%;
+    padding:20px;
+}
+
+.header{
+    color:black ;
+    display: flex;
+    justify-content: center;
+    border-bottom:1px solid black;
+}
+.content{
+    display: flex;
+    flex-direction:column;
+}
+.label{
+    margin-top: 12px;
+}
+.input{
+    background-color:honeydew;
+    border: none;
+    padding: 12px;
+    margin-top: 5px;
+}
+.button{
+    background-color: green;
+    width: 100%;
+    margin-top:20px;
+    padding: 12px;
+
+}
+#signin{
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    top:35%;
+    left:36%;
+    width: 30%;
+    background-color: blanchedalmond;
+    padding:20px;
+}
+.header1{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+.signup1{
+    color: blue;
+    cursor: pointer;
+    font-weight: bold;
+}
+.end{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.welcome{
+    margin-top:-5px;
+}
+#icon{
+    position:absolute;
+    top:10px;
+    right:15px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
