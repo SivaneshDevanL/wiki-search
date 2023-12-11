@@ -1,0 +1,36 @@
+.wiki{
+    display: flex;
+    justify-content: center;
+}
+.suggestion{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: large;
+    font-weight:400;
+}
+a{
+    text-decoration: none;
+    color:ghostwhite;
+}
+body{
+    background:cadetblue;
+}
+.wiki{
+    font-size: xx-large;
+    font-weight: inherit;
+    font-family: cursive;
+    color: ghostwhite;
+}
+input{
+    width: 28%;
+    padding: 10px;
+    border:none;
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px;
+}
+/* #link{
+    background-color:lightblue;
+    width:28%;
+    margin-left: 36%;
+} */
